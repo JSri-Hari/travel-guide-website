@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>VHK Travels</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+    .container{
+            width: 100%;
+            height: 100%;
+            background-color: #ffdd0093;
+            background-repeat: no-repeat;
+            color: azure;
+            background-size: cover;
+            background-position: center center;
+            height: 100vh;
+        }
+        .container .containerinner{
+            width: 100%;
+            position: absolute;
+            top: 0%;
+            height: 75px;
+            margin: auto;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 25px;
+            position: fixed;
+            background-color:#333;
+        }
+        .container .containerinner ul {
+            list-style-type: none;
+            display: flex;
+            padding: 50px;
+        }
+        .container .containerinner ul li {
+            margin-right: 60px;
+            transition: background-color 0.3s ease;
+            font-size: 18px;
+            padding: 7px 7px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .container .containerinner ul li:hover {
+            background-color: rgba(236, 183, 24, 0.671);
+        }   
+        .container .containerinner ul li:last-child {
+            margin-right: 0;
+        }
+
+        .container .containerinner .signup:hover{
+            background-color: #d7c00f;
+        }
+        .container .containerinner button.signup {
+            color: #fff;
+            background-color: transparent;
+            border: none;
+            transition: background-color 0.3s;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10px; 
+            margin-right: 40px;
+            font-size: larger;
+        }
+        .container .containerinner button.harbor {
+            background-color: transparent;
+            border: none;
+            color: rgba(255, 255, 255, 0.8);
+            cursor: pointer;
+            font-size:x-large;
+        }
+        .container .containerinner button ion-icon {
+            color: rgba(213, 8, 38, 0.8);
+            background-color: transparent;
+            border: none;
+        }
+        .container .containerinner ul li a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+    .containers {
+      width: 100%;
+      margin: 0;
+      padding: 10% 0.25%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .story-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 80%;
+      padding: 40px 20px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .story-text {
+      margin-top: -40px;
+      width: 45%;
+      height: 450px;
+      padding: 20px;
+      color: #333;
+    }
+
+    .story-image {
+      width: 45%;
+      height: 400px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      border: 2px solid black;
+      background-color: white;
+    }
+
+    .story-image img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .team-grid {
+      display: inline-block;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      padding: 0;
+      margin: 0;
+    }
+
+    #t1{
+      text-align: center;
+      width: 100%;
+      margin-left: 40px;
+    }
+    #t2{
+      text-align: center;
+      width: 100%;
+      transform: translate(0%,-98%);
+    }
+    #t3{
+      text-align: center;
+      width: 100%;
+      transform: translate(35%,-235%);
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .social-icons img {
+      width: 24px;
+      height: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="containerinner">
+        <a href="index.html"><button class="harbor"> VHK Travels</button></a>
+        <ul>
+        </ul>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <a href="signin.html"><button class="signup">Login/Sign-Up</button></a>
+    </div>
+
+  <div class="containers">
+    <div class="story-section">
+      <div class="story-text">
+        <h2>Welcome to VHK Travel: Your Ultimate Travel Companion</h2>
+        <p>At VHK Travel, we understand that travel is not just about reaching a destination; it's about the experiences, memories, and discoveries along the way. With a passion for exploration and a commitment to exceptional service, we strive to make every journey an unforgettable adventure.</p>
+
+        <p>Explore the world with ease using our intuitive travel booking platform. Whether you're planning a weekend getaway, a family vacation, or a solo expedition, we've got you covered. With access to a vast network of airlines, trains, buses, and rental cars, finding the perfect mode of transportation is just a few clicks away. Simply enter your desired destination and travel dates, and let us handle the rest. From flight options to ticket reservations, we'll streamline the booking process, saving you time and hassle.</p>
+
+        <p>Let us help you plan the perfect trip with our personalized itinerary planning service. Tell us your interests, preferences, and budget, and we'll create a tailor-made travel plan just for you.</p>
+
+        <p>At VHK Travel, we believe that travel is not just a destination; it's a journey of discovery, adventure, and transformation. Join us on the path to exploration and let your wanderlust guide you to new horizons. Start planning your next adventure today with VHK Travel - where the journey begins.</p>
+      </div>
+      <div class="story-image">
+        <img src="png-transparent-travel-art-carolinas-aviation-museum-travel-tours-travel-agent-yellow-line-circle-logo.png" alt="Our Story Image">
+      </div>
+    </div>
+  </div>
+  </div>
+  <h2 style="padding-left: 45%;">Meet Our Team</h2>
+
+  <div class="team-grid">
+    <div class="team-member" id="t1">
+      <img src="kalu.jpg" alt="Team Member 1" style="width:150px;">
+      <h3>M. Karthikeya </h3>
+      <p>Mail: <a href="mailto:av.en.u4cse22228@av.students.amrita.edu">av.en.u4cse22228@av.students.amrita.edu</a></p>
+      <div class="social-icons"></div>
+        <a href="https://www.linkedin.com/in/machiraju-manjunadh-8557a3263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><ion-icon name="logo-linkedin"></ion-icon></a>
+      </div>
+    </div>
+    <div class="team-member" id="t2">
+      <img src="venky pic.jpg" alt="Team Member 3" style="width:150px;">
+      <h3>V.Venkateswarulu</h3>
+      <p>Contact: <a href="tel:9849310569">9849310569</a></p>
+      <p>Mail: <a href="mailto:av.en.u4cse22260@av.students.amrita.edu">av.en.u4cse22260@av.students.amrita.edu</a></p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/venkyy__018?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="https://www.linkedin.com/in/puvvada-vamsidhar-b54438255/"><ion-icon name="logo-linkedin"></ion-icon></a>
+      </div>
+    </div>
+    <div class="team-member" id="t3">
+      <img src="h1.png" alt="Unknown" style="width:150px;">
+      <h3>J. Sri Hari Prasad</h3>
+      <p>Contact: <a href="tel:7396398472">7396398472</a></p>
+      <p>Mail: <a href="mailto:av.en.u4cse22220@av.students.amrita.edu">av.en.u4cse22220@av.students.amrita.edu</a></p>
+    </div>
+  </div>
+</body>
+</html>

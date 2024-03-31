@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-image:url(wallpaperflare.com_wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    position: sticky;
+    width:100%;
+    background-attachment: fixed;
+    backdrop-filter: brightness(90%);
+}
+nav{
+    width:100%;
+    display: flex;
+    height:110px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 1%;
+    transition: background 0.65s;
+    background: #f0f3ff30;
+    position:sticky;
+}
+nav:hover{
+    background: #ffffff94;
+}
+nav .logo{
+    align-items: center;
+    margin-left:10px;
+    width: 130px;
+    height:100px;
+    margin-top: 15px;
+}
+nav .logo img{
+    width: 90px;
+    margin-left: 25px;
+}
+nav .logo:hover img{
+    filter: drop-shadow(0px 0px 60px
+    rgb(255, 255, 255));
+    scale:1.1;
+}
+nav ul{
+    display:flex;
+    justify-content: space-around;
+}
+nav ul li{
+    display: flex;
+}
+.info{
+    width:95%;
+    background-color: rgba(210, 210, 218, 0.205);
+    margin-left: 2.5%;
+    margin-top:100px;
+    height:3300px;
+    border-radius: 10px;
+    position: relative;
+}
+#t4{
+    width: 1100px;
+    margin-left: 120px;
+    color: white;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight:500 ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.info img{
+   width: 500px;
+   padding:50px;
+   position: relative;
+   margin-left: 460px;
+   transition: 1.5s;
+   border-radius: 105px;
+}
+#t1{
+    color: black;
+    margin-left: 150px;
+    margin-top: 30px;
+    width: 250px;
+    font-size: larger;
+    text-decoration:underline;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+#t2{
+    color:rgb(14, 38, 54);
+    width:fit-content;
+    margin-left:290px;
+    margin-top:50px;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+#t3{
+    width: 1100px;
+    margin-left: 180px;
+    color: white;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight:500 ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+#t5{
+    margin-top: 30px;
+    font-family:'Trattatello', fantasy;
+    width: fit-content;
+    margin-left: 490px;
+    height: 150px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 7.4em;
+    letter-spacing:2.7px ;
+    font-weight: lighter;
+    transition: 1.5s;
+}
+p,h1,h4,h5:hover{
+    cursor:default;
+}
+.info img:hover{
+    scale:1.08;
+    border-radius: 80px;
+}
+#t6{
+    color: black;
+    margin-left: 150px;
+    margin-top: 30px;
+    width: 450px;
+    font-size: larger;
+    text-decoration:underline;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+.info .des .download{
+    margin-top: 20px;
+    margin-left: 200px;
+    width: fit-content;
+    background-color: rgb(21, 128, 223);
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.lower{
+    margin-top: 30px;
+    height: 130px;
+    padding: 50px;
+    background-color: white;
+}

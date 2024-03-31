@@ -1,0 +1,85 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url(signin_back1.jpg);
+    background-size:cover ;
+  }
+  
+  .form-card {
+    padding: 48px 40px 36px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color:transparent; /* Change the background color */
+    color: white;
+    height: 450 px;
+    backdrop-filter: blur(8px);
+    width: 350px;
+  }
+  .form-card label {
+    display: none; /* Hide labels */
+  }
+  
+  .form-control {
+    padding: 20px 5px;
+    line-height: 20px;
+    vertical-align: middle;
+    position: relative;
+    font-size: 16px;
+    color: white;
+    background-color: transparent; 
+    border: none; 
+    border-bottom: 1px solid white;
+    margin-bottom: 20px; 
+    transition:all 0.3s ease-in-out;  
+  }
+  
+  .form-control::placeholder {
+    color: #000000;
+    opacity: 1;
+    position: absolute;
+    top: 5px;
+    left: 12px;
+    transition: all 0.3s ease-in-out;
+  }
+  .form-control:focus::placeholder {
+    color: transparent;
+    transform: translateY(-40px) scale(0.8) translateX(-15px);
+  }
+  .submit-btn {
+    background-color: #007BFF;
+    border: none;
+    padding: 5px;
+    width: 90px;
+    height: fit-content;
+    border-radius: 5px;
+    color: white;
+    margin-left: 35%;
+    text-align: center;
+  }
+  span{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    font-size: 2em;
+    color: black;
+  }
+  input{
+    height:40px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  .s1{
+    width: 90px;
+    background-color: #007BFF;
+    border-radius: 5px;
+    height: fit-content;
+    text-align: center;
+    padding: 5px;
+  }
+  .mt-5{
+    display: flex;
+  }
